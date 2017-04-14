@@ -1,9 +1,5 @@
-
-/************************ BUTTONS *******************************************/
-
-/** Short Button **/
-:host /deep/ .nyllabs-btn-short {
-    width: 75px !important;
+.nyllabs-btn-short {
+    width: 75px;
     padding: 0;
     border-radius: 5px;
     font-size: 10pt;
@@ -15,23 +11,18 @@
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
+    background-color: #4789DF;
+}
+.nyllabs-btn-short:hover {
+    background-color: #6DADF5;
+}
+.nyllabs-btn-short:active {
+    background-color: #8EC2F2;
 }
 
-:host /deep/ button.nyllabs-btn-short {
-    background-color: #4789DF !important;
-}
-
-:host /deep/ button.nyllabs-btn-short:hover {
-    background-color: #6DADF5 !important;
-}
-
-:host /deep/ button.nyllabs-btn-short:active {
-    background-color: #8EC2F2 !important;
-}
-
-/** Tall Button **/
-:host /deep/ .nyllabs-btn-tall {
-    width: 120px !important;
+.nyllabs-btn-tall {
+    width: 120px;
+    padding: 0;
     border-radius: 5px;
     font-size: 14pt;
     line-height: 48px;
@@ -42,16 +33,55 @@
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
+    background-color: #4789DF;
+}
+.nyllabs-btn-tall:hover {
+    background-color: #6DADF5;
+}
+.nyllabs-btn-tall:active {
+    background-color: #8EC2F2;
 }
 
-:host /deep/ button.nyllabs-btn-tall {
-    background-color: #4789DF !important;
+.nyllabs-btn-short-dark {
+    width: 75px;
+    font-size: 10pt;
+    line-height: 30px;
+    padding: 0;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    outline: none;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #212121;
+}
+.nyllabs-btn-short-dark:hover {
+    background-color: #44454B;
+}
+.nyllabs-btn-short-dark:active {
+    background-color: #D4D4D4;
 }
 
-:host /deep/ button.nyllabs-btn-tall:hover {
-    background-color: #6DADF5 !important;
+.nyllabs-btn-tall-dark {
+    width: 120px;
+    font-size: 14pt;
+    line-height: 48px;
+    padding: 0;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    outline: none;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #212121;
 }
-
-:host /deep/ button.nyllabs-btn-tall:active {
-    background-color: #8EC2F2 !important;
+.nyllabs-btn-tall-dark:hover {
+    background-color: #44454B;
+}
+.nyllabs-btn-tall-dark:active {
+    background-color: #D4D4D4;
 }

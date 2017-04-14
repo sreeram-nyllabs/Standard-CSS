@@ -1,0 +1,57 @@
+
+/************************ BUTTONS *******************************************/
+
+/** Short Button **/
+:host /deep/ .nyllabs-btn-short {
+    width: 75px !important;
+    padding: 0;
+    border-radius: 5px;
+    font-size: 10pt;
+    line-height: 30px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    outline: none;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+:host /deep/ button.nyllabs-btn-short {
+    background-color: #4789DF !important;
+}
+
+:host /deep/ button.nyllabs-btn-short:hover {
+    background-color: #6DADF5 !important;
+}
+
+:host /deep/ button.nyllabs-btn-short:active {
+    background-color: #8EC2F2 !important;
+}
+
+/** Tall Button **/
+:host /deep/ .nyllabs-btn-tall {
+    width: 120px !important;
+    border-radius: 5px;
+    font-size: 14pt;
+    line-height: 48px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    outline: none;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+:host /deep/ button.nyllabs-btn-tall {
+    background-color: #4789DF !important;
+}
+
+:host /deep/ button.nyllabs-btn-tall:hover {
+    background-color: #6DADF5 !important;
+}
+
+:host /deep/ button.nyllabs-btn-tall:active {
+    background-color: #8EC2F2 !important;
+}

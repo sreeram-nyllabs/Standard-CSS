@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'Graphik';
+  src: url(../Graphik) format("otf"); }
+@font-face {
+  font-family: 'Graphik';
+  src: url("../Graphik") format("otf");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Graphik';
+  src: url("../Graphik") format("otf");
+  font-weight: normal;
+  font-style: italic; }
+@font-face {
+  font-family: 'Graphik';
+  src: url("../Graphik") format("woff");
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: "Graphik";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../Graphik.otf") format("opentype"); }
+.nyllabs-btn {
+  width: 120px;
+  font-size: 10pt;
+  line-height: 30px;
+  border: none;
+  outline: none;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  font-family: "Graphik";
+  font-weight: 600;
+  color: white;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #4789DF; }
+  .nyllabs-btn:hover {
+    background-color: #6DADF5; }
+  .nyllabs-btn:active {
+    background-color: #8EC2F2; }
+  .nyllabs-btn.btn-dark {
+    background-color: #212121; }
+    .nyllabs-btn.btn-dark:hover {
+      background-color: #44454B; }
+    .nyllabs-btn.btn-dark:active {
+      background-color: #D4D4D4; }
+  .nyllabs-btn.btn-success {
+    background-color: #09CB55; }
+    .nyllabs-btn.btn-success:hover {
+      background-color: #37e66e; }
+    .nyllabs-btn.btn-success:active {
+      background-color: #84f5a6; }
+  .nyllabs-btn.btn-danger {
+    background-color: #FF4A48; }
+    .nyllabs-btn.btn-danger:hover {
+      background-color: #ff6666; }
+    .nyllabs-btn.btn-danger:active {
+      background-color: #ff8080; }
+  .nyllabs-btn.btn-short {
+    width: 120px;
+    font-size: 10pt;
+    line-height: 48px; }
+  .nyllabs-btn.btn-tall {
+    width: 240px;
+    font-size: 14pt;
+    line-height: 48px; }
+  .nyllabs-btn.btn-grande {
+    width: 360px;
+    font-size: 14pt;
+    line-height: 48px; }
+
+/*# sourceMappingURL=buttons.css.map */

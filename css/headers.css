@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'Graphik';
+  src: url(../Graphik) format("otf"); }
+@font-face {
+  font-family: 'Graphik';
+  src: url("../Graphik") format("otf");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Graphik';
+  src: url("../Graphik") format("otf");
+  font-weight: normal;
+  font-style: italic; }
+@font-face {
+  font-family: 'Graphik';
+  src: url("../Graphik") format("woff");
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: "Graphik";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../Graphik.otf") format("opentype"); }
+.nyllabs-title {
+  text-align: center; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Graphik";
+  font-weight: 600;
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  font-size: 36pt; }
+  h1 + .nyllabs-subtitle {
+    font-family: "Open Sans", "Helvetica", "sans-serif";
+    font-weight: 400;
+    font-size: 18pt;
+    margin-bottom: 15px; }
+
+h2 {
+  font-size: 24pt; }
+  h2 + .nyllabs-subtitle {
+    font-family: "Open Sans", "Helvetica", "sans-serif";
+    font-weight: 400;
+    font-size: 16pt;
+    margin-bottom: 15px; }
+
+h3 {
+  font-size: 18pt; }
+  h3 + .nyllabs-subtitle {
+    font-family: "Open Sans", "Helvetica", "sans-serif";
+    font-weight: 400;
+    font-size: 14pt;
+    margin-bottom: 15px; }
+
+/*# sourceMappingURL=headers.css.map */

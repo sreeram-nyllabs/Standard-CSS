@@ -1,0 +1,29 @@
+//@font-face {
+//  font-family: 'Graphik';
+//  src: url(../Graphik) format('otf')
+//}
+//
+//@font-face {
+//  font-family: 'Graphik';
+//  src: url('../Graphik') format('otf');
+//  font-weight: normal;
+//  font-style: normal;
+//}
+//
+//@font-face {
+//  font-family: 'Graphik';
+//  src: url('../Graphik') format('otf');
+//  font-weight: normal;
+//  font-style: italic;
+//}
+//
+//@font-face {
+//  font-family: 'Graphik';
+//  src: url('../Graphik') format('woff');
+//  font-weight: 700;
+//  font-style: normal;
+//}
+
+
+@include font-face('Graphik', '../Graphik', $weight: 400, $style: normal, $exts: otf);
+$fontFamily: 'Graphik';

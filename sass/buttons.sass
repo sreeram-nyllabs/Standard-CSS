@@ -1,0 +1,96 @@
+@import "variables"
+@import "mixins"
+@import "fonts"
+
+.nyllabs-btn
+  width: $btnShortWidth
+  font-size: 10pt
+  line-height: 30px
+  border: none
+  outline: none
+  text-align: center
+  white-space: nowrap
+  vertical-align: middle
+  font-family: $fontFamily
+  font-weight: 600
+  color: white
+  @include border-radius($borderRadius)
+  @include btnActionColors($primary, $primaryHover, $primaryActive)
+
+  &.btn-dark
+    @include btnActionColors($dark, $darkHover, $darkActive)
+
+  &.btn-short
+    width: $btnShortWidth
+    font-size: 10pt
+    line-height: 30px
+  &.btn-tall
+    width: $btnTallWidth
+    font-size: 14pt
+    line-height: 48px
+  &.btn-grande
+    width: $btnGrandeWidth
+    font-size: 14pt
+    line-height: 76px
+
+
+
+
+//
+//.nyllabs-btn
+//  padding: 0
+//  border: none
+//  outline: none
+//  text-align: center
+//  white-space: nowrap
+//  vertical-align: middle
+//  font-weight: 600
+//  border-radius: 5px
+//
+//.nyllabs-btn-short
+//  //@extend .nyllabs-btn
+//  @include btnActionColors($primary, $primaryHover, $primaryActive)
+//  width: 75px
+//  font-size: 10pt
+//  line-height: 30px
+//  color: white
+//
+//.nyllabs-btn-tall
+//  width: 120px
+//  font-size: 14pt
+//  line-height: 48px
+//  color: white
+//  @extend .nyllabs-btn
+//  @include btnActionColors($primary, $primaryHover, $primaryActive)
+//
+//.nyllabs-btn-short-dark
+//  width: 75px
+//  font-size: 10pt
+//  line-height: 30px
+//  color: white
+//  @extend .nyllabs-btn
+//  @include btnActionColors($dark, $darkHover, $darkActive)
+//
+//.nyllabs-btn-tall-dark
+//  width: 120px
+//  font-size: 14pt
+//  line-height: 48px
+//  color: white
+//  @extend .nyllabs-btn
+//  @include btnActionColors($dark, $darkHover, $darkActive)
+//
+//.nyllabs-btn-grande
+//  width: 192px
+//  font-size: 14pt
+//  line-height: 76.8px
+//  color: white
+//  @extend .nyllabs-btn
+//  @include btnActionColors($primary, $primaryHover, $primaryActive)
+//
+//.nyllabs-btn-grande-dark
+//  width: 192px
+//  font-size: 14pt
+//  line-height: 76.8px
+//  color: white
+//  @extend .nyllabs-btn
+//  @include btnActionColors($dark, $darkHover, $darkActive)

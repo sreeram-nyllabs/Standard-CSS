@@ -1,0 +1,37 @@
+@import variables
+@import mixins
+@import fonts
+
+.nyllabs-title
+  text-align: center
+
+h1, h2, h3, h4, h5, h6
+  font-family: $fontFamily
+  font-weight: 600
+  margin: 0
+  padding: 0
+
+h1
+  font-size: 36pt
+  & + .nyllabs-subtitle
+    font-family: $font-family-secondary
+    font-weight: 400
+    font-size: 18pt
+    margin-bottom: 15px
+
+
+h2
+  font-size: 24pt
+  & + .nyllabs-subtitle
+    font-family: $font-family-secondary
+    font-weight: 400
+    font-size: 16pt
+    margin-bottom: 15px
+
+h3
+  font-size: 18pt
+  & + .nyllabs-subtitle
+    font-family: $font-family-secondary
+    font-weight: 400
+    font-size: 14pt
+    margin-bottom: 15px

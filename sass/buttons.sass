@@ -19,19 +19,25 @@
 
   &.btn-dark
     @include btnActionColors($dark, $darkHover, $darkActive)
+  &.btn-success
+    @include btnActionColors($success, $successHover, $successActive)
+  &.btn-danger
+    @include btnActionColors($danger, $dangerHover, $dangerActive)
+
 
   &.btn-short
     width: $btnShortWidth
     font-size: 10pt
-    line-height: 30px
+    line-height: $btnShortHeight
   &.btn-tall
     width: $btnTallWidth
     font-size: 14pt
-    line-height: 48px
+    line-height: $btnTallHeight
   &.btn-grande
     width: $btnGrandeWidth
     font-size: 14pt
-    line-height: 76px
+    line-height: $btnGrandeHeight
+
 
 
 
